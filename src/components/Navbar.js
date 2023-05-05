@@ -1,5 +1,7 @@
-function Nav() {
-  const path = window.location.pathname;
+import React,{useState,useContext} from "react"
+import {CustomLink} from "react"
+
+const Navbar =()=>{
   return (
     <nav>
       <h1>Jason Chen</h1>
@@ -13,4 +15,5 @@ function Nav() {
   );
 }
 
-export default Nav;
+
+export default Navbar;
