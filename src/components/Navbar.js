@@ -1,19 +1,17 @@
-import React,{useState,useContext} from "react"
-import {CustomLink} from "react"
+import React from 'react'
 
-const Navbar =()=>{
-  return (
-    <nav>
-      <h1>Jason Chen</h1>
-      <ul>
-        <CustomLink to='/'>About me</CustomLink>
-        <CustomLink to='/portfolio'>Portfolio</CustomLink>
-        <CustomLink to='/contact'>Contact</CustomLink>
-        <CustomLink to='/resume'>Resume</CustomLink>
+const Navbar = () => {
+  return(
+    <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white'>
+      <h1 className='w-full text-3xl font-bold text-[#00df9a]'>REACT.</h1>
+      <ul className='flex'>
+        <li className='p-4'>About me</li>
+        <li className='p-4'>Projects</li>
+        <li className='p-4'>Resume</li>
+        <li className='p-4'>Contacts</li>
       </ul>
-    </nav>
-  );
+    </div>
+  )
+
 }
-
-
-export default Navbar;
+export default Navbar
