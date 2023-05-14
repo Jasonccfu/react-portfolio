@@ -28,10 +28,9 @@ const Navbar = () => {
         <li className='p-4 birder-b border-gray-600'>Resume</li>
         <li className='p-4 birder-b border-gray-600'>Contacts</li>
         </ul>
-
       </div>
     </div>
   )
 
 }
-export default Navbar
+export default Navbar;
