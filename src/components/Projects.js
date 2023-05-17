@@ -8,8 +8,8 @@ const Projects = () => {
                 {/* first card */}
                 <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
                     <img className="w-20 mx-auto mt-[-3rem] bg-white" src={Project} alt="/" />
-                    <h2 className="text-2xl font-bold text-center py-8">Project-1</h2>
-                    <p className="text-center text-4xl font-bold">This test</p>
+                    <h2 className="text-2xl font-bold text-center py-8">Number Vaildator</h2>
+                    <p className="text-center text-4xl font-bold">M.E.R.G</p>
                     <div className="text-center font-medium">
                         <p className="py-2 border-b mx-8 mt-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
                         <p className="py-2 border-b mx-8">More</p>
@@ -20,8 +20,8 @@ const Projects = () => {
                  {/* secend card */}
                  <div className="w-full shadow-xl bg-gray-100 flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300">
                     <img className="w-20 mx-auto mt-[-3rem] bg-white" src={Project} alt="/" />
-                    <h2 className="text-2xl font-bold text-center py-8">Project-1</h2>
-                    <p className="text-center text-4xl font-bold">This test</p>
+                    <h2 className="text-2xl font-bold text-center py-8">Skill Swap</h2>
+                    <p className="text-center text-4xl font-bold">M.E.R.G</p>
                     <div className="text-center font-medium">
                         <p className="py-2 border-b mx-8 mt-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
                         <p className="py-2 border-b mx-8">More</p>
@@ -32,8 +32,8 @@ const Projects = () => {
                  {/* third card */}
                  <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
                     <img className="w-20 mx-auto mt-[-3rem] bg-white" src={Project} alt="/" />
-                    <h2 className="text-2xl font-bold text-center py-8">Project-1</h2>
-                    <p className="text-center text-4xl font-bold">This test</p>
+                    <h2 className="text-2xl font-bold text-center py-8">Chatdown</h2>
+                    <p className="text-center text-4xl font-bold">M.E.R.G</p>
                     <div className="text-center font-medium">
                         <p className="py-2 border-b mx-8 mt-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
                         <p className="py-2 border-b mx-8">More</p>
